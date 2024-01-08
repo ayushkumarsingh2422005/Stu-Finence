@@ -1,45 +1,185 @@
 {
-    "Cloths":[
+    "FASHION": [
         {
-            "name": "Tbasbfh",
-            "size": "Tbasbfh",
-            "prize": "Tbasbfh",
-            "color": "color"
+            "name": "jacket",
+            "size": "m",
+            "prize": "500",
+            "bio": "50% off",
+            "color": "black",
+            "image": ""
         },
         {
-            "name": "Tbasbfh",
-            "size": "Tbasbfh",
-            "prize": "Tbasbfh",
-            "color": "color"
+            "name": "Cardigan",
+            "size": "XL",
+            "prize": "450",
+            "bio": "50% off",
+            "color": "brown",
+            "image": ""
         },
         {
-            "name": "Tbasbfh",
-            "size": "Tbasbfh",
-            "prize": "Tbasbfh",
-            "color": "color"
+            "name": "Palazzo Pants",
+            "size": "s",
+            "prize": "340",
+            "color": "magenta",
+            "bio": "not availble",
+            "image": ""
         },
         {
-            "name": "Tbasbfh",
-            "size": "Tbasbfh",
-            "prize": "Tbasbfh",
-            "color": "color"
+            "name": "Romper ",
+            "size": "L",
+            "prize": "460",
+            "color": "blue",
+            "bio": "%45 off",
+            "image": ""
         }
-    ], 
-    "Cosmatics":[
+    ],
+    "COSMETICS": [
         {
-            "name" : "lipistic",
-            "for" : "fei",
-            "prize" : "fjk"
-        }, 
+            "name": "lipistic",
+            "for": "lips",
+            "prize": "200",
+            "brand": "lakme",
+            "bio": "not availble",
+            "image": ""
+        },
         {
-            "name" : "lipistic",
-            "for" : "fei",
-            "prize" : "fjk"
-        }, 
+            "name": "Mascara ",
+            "for": "L'Oréal Paris",
+            "prize": "450",
+            "brand": "L'Oréal Paris",
+            "image": ""
+        },
         {
-            "name" : "lipistic",
-            "for" : "fei",
-            "prize" : "fjk"
+            "name": "Contour Kit ",
+            "for": "face",
+            "prize": "670",
+            "brand": "Kat Von D Beauty",
+            "image": ""
+        },
+        {
+            "name": "Contour Kit ",
+            "for": "face",
+            "prize": "670",
+            "brand": "Kat Von D Beauty",
+            "image": ""
+        },
+        {
+            "name": "Gel Eyeliner ",
+            "for": "eye",
+            "prize": "490",
+            "brand": "Kat Von D Beauty",
+            "bio": "buy 1 get one free",
+            "image": ""
+        },
+        {
+            "name": "nailpolish ",
+            "for": "nail",
+            "prize": "560",
+            "brand": "OPI",
+            "bio": "buy 1 get one free",
+            "image": ""
+        },
+        {
+            "name": "BB Cream ",
+            "for": "body",
+            "prize": "357",
+            "brand": " Clinique",
+            "bio": "buy 2 get 1 free",
+            "image": ""
+        }
+    ],
+    "GADGETS": [
+        {
+            "name": "Smartphone ",
+            "brand": "Apple iPhone",
+            "bio": "120 mpx camera ,rtx 3050 graphics card",
+            "prize": "250000",
+            "color": "black",
+            "image": ""
+        },
+        {
+            "name": "Laptop",
+            "brand": "Dell XPS",
+            "prize": "450000",
+            "bio": "50% off",
+            "color": "brown",
+            "image": ""
+        },
+        {
+            "name": "Tablet",
+            "brand": "Samsung Galaxy Tab",
+            "prize": "34000",
+            "color": "magenta",
+            "bio": "not availble",
+            "image": ""
+        },
+        {
+            "name": "Fitness Tracker ",
+            "size": "L",
+            "prize": "46000",
+            "color": "blue",
+            "bio": "%45 off",
+            "image": ""
+        }
+    ],
+    "JEWELLERY": [
+        {
+            "name": "Engagement Ring",
+            "size": "m",
+            "prize": "500000",
+            "brand": "- Tiffany & Co.",
+            "bio": "50% off",
+            "image": ""
+        },
+        {
+            "name": "Diamond Necklace",
+            "size": "XL",
+            "prize": "4500000",
+            "brand": "Cartier",
+            "bio": "50% off",
+            "image": ""
+        },
+        {
+            "name": "Bracelet ",
+            "size": "XL",
+            "prize": "340000",
+            "brand": "David Yurman",
+            "bio": "not availble",
+            "image": ""
+        },
+        {
+            "name": " Earrings",
+            "size": "L",
+            "prize": "460000",
+            "brand": "Bulgari",
+            "bio": "%45 off",
+            "image": ""
+        }
+    ],
+    "WATCH": [
+        {
+            "name": "Rolex Submariner",
+            "size": "m",
+            "prize": "50000",
+            "bio": "buy 1 get one free",
+            "color": "black",
+            "image": ""
+        },
+        {
+            "name": "Omega Speedmaster",
+            "size": "XL",
+            "prize": "45000",
+            "bio": "50% off",
+            "color": "brown",
+            "image": ""
+        },
+        {
+            "name": "Seiko Presage",
+            "size": "s",
+            "prize": "340",
+            "color": "magenta",
+            "bio": "not availble",
+            "image": ""
         }
     ]
 }

@@ -6,7 +6,7 @@
     justify-content: space-around;
     padding: 5px;
     background-color: #e0e0e0;
-    box-shadow: 8px 8px 15px #b0b0b0, -8px -8px 15px #ffffff, 0 0 2px gray;
+    /* box-shadow: 8px 8px 15px #b0b0b0, -8px -8px 15px #ffffff, 0 0 2px gray; */
 }
 
 .nevbar>div {

@@ -1,8 +1,9 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import discountElements from './discountElements';
+// import discountElements from './discountElements';
 import NevBar from '../../Components/NevBar/NevBar';
 import Top from '../../Components/Top/Top';
+import Footer from '../../Components/Footer/Footer';
 import "./Home.css";
 import ad1 from '../../Images/Ads/ad1.webp';
 import ad2 from '../../Images/Ads/ad2.webp';
@@ -13,23 +14,26 @@ export default function Home() {
     <>
       <Top />
       <span>Top Sales</span>
-      <div className='discount'>
-        <discountElements content='ayus'/>
-        <discountElements content='ayus'/>
-        <discountElements content='ayus'/>
-        <discountElements content='ayus'/>
-        <discountElements content='ayus'/>
-        <discountElements content='ayus'/>
-        <discountElements content='ayus'/>
-        
+      <motion.div className='discount'
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}>
         <div></div>
         <div></div>
         <div></div>
         <div></div>
         <div></div>
         <div></div>
-      </div>
-      <div id="myCarousel" className="carousel slide ads" data-bs-ride="carousel">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }} id="myCarousel" className="carousel slide ads" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={ad1} className="d-block w-100" alt="First Slide" />
@@ -49,7 +53,24 @@ export default function Home() {
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
+      </motion.div> <br />
+      <motion.div className='catagory'
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </motion.div>
+      <Footer />
       <NevBar />
     </>
   )
