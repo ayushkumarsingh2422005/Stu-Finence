@@ -5,8 +5,9 @@
     gap: 10px;
     justify-content: space-around;
     padding: 5px;
-    background-color: #e0e0e0;
+    background-color: #343434;
     z-index: 10000;
+    color: white !important;
     /* box-shadow: 8px 8px 15px #b0b0b0, -8px -8px 15px #ffffff, 0 0 2px gray; */
 }
 
@@ -24,13 +25,13 @@
 .nevbar>div:hover {
     transform: translateY(-25px) scale(1.5);
     border: solid 4px white;
-    background-color: #e0e0e0;
+    background-color: #343434;
     color: red;
 }
 
 .nevbar>div>a>i {
     font-size: 150%;
-    color: black;
+    color: white;
 }
 .nevbar>div>a>i:hover{
     color: red;
