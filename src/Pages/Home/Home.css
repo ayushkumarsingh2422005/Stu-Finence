@@ -16,6 +16,7 @@ span{
     display: block;
     margin: 25px auto 0 auto;
     width: 90%;
+    color: black !important;
     /* background-color: red; */
 }
 .discount {
@@ -34,7 +35,7 @@ span{
     background-color: rgb(240, 234, 234);
     border-radius: 100px;
     margin-top: 0;
-    display: none;
+    display: block;
 }
 .discount::-webkit-scrollbar-thumb{
     background-color: rgb(155, 155, 155);
@@ -55,8 +56,8 @@ span{
     background-color: transparent;
     margin: 10px auto 0 auto;
     width: 90%;
-    background-color: gray;
-    background-color: red;
+    /* background-color: gray;
+    background-color: red; */
     overflow: hidden;
     border-radius: 2px;
 }
@@ -76,6 +77,7 @@ span{
 
 .carousel-inner img {
     object-fit: cover;
+    height: 300px;
 }
 
 .carousel-control-prev,
@@ -113,6 +115,6 @@ span{
     width: 100px;
     height: 100px;
     margin-right: 10px;
-    background-color: #f0f0f0;
+    background-color: black;
     display: inline-block;
 }
