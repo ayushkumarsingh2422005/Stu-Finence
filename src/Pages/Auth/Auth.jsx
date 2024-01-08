@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Auth.css"
-import colorlogo from "../../Images/SiteImages/bg.jpg";
+import colorlogo from "../../Images/SiteImages/BackgroundRemoved.png";
 import bg from "../../Images/SiteImages/bg.jpg"
 // import border from "../../assets/AuthImages/border.png"
 

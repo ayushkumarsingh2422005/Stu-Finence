@@ -8,6 +8,8 @@ import "./Home.css";
 import ad1 from '../../Images/Ads/ad1.webp';
 import ad2 from '../../Images/Ads/ad2.webp';
 import ad3 from '../../Images/Ads/ad3.webp';
+import data from '../../DataSets/item.json';
+import catagory from '../../DataSets/Catagory.json';
 
 export default function Home() {
   return (
@@ -18,17 +20,16 @@ export default function Home() {
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}>
+        {catagory != null ?
+          catagory.map(function (params) {
+            return <div style={{textAlign:"center"}}>
+              <img src={params.image} style={{height:"100%"}}/>
+              <br />
+              {params.category}
+            </div>
+          })
+          : "searching"}
 
-        <div>
-          <img src="" />
-          <br />
-          catagory
-        </div>
-        <div>
-          <img src="" />
-          <br />
-          catagory
-        </div>
 
       </motion.div>
       <motion.div
@@ -59,17 +60,12 @@ export default function Home() {
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        
+        {data != null ?
+          data.map(function (params) {
+            return <div style={{backgroundImage:`url(${params.image})`, backgroundSize:"cover"}}></div>
+          })
+          : "searching"}
       </motion.div>
       <Footer />
       <NevBar />

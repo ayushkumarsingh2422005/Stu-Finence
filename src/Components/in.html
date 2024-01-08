@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>E-commerce Product Filter</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="filter">
+        <h3>Filter Options</h3>
+        <form>
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option>All Categories</option>
+                    <option>Electronics</option>
+                    <option>Clothing</option>
+                    <option>Books</option>
+                    <!-- Add more categories as needed -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="priceRange">Price Range:</label>
+                <input type="range" id="priceRange" min="0" max="1000">
+                <span id="priceOutput">0</span>
+            </div>
+
+            <div class="form-group">
+                <label>Brand:</label>
+                <div class="brand-checkbox">
+                    <label for="brand1"><input type="checkbox" id="brand1"> Brand 1</label>
+                </div>
+                <div class="brand-checkbox">
+                    <label for="brand2"><input type="checkbox" id="brand2"> Brand 2</label>
+                </div>
+                <!-- Add more brand checkboxes as needed -->
+            </div>
+
+            <button type="button" onclick="applyFilter()">Apply Filters</button>
+        </form>
+    </div>
+
+    <div class="product-list">
+        <!-- Product listing goes here -->
+        <h2>Product Listing</h2>
+        <!-- Add your product cards or listing elements here -->
+    </div>
+</div>
+
+<script src="script.js"></script>
+<style>
+    /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter {
+    width: 30%;
+    float: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+select, input[type="range"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.brand-checkbox {
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-list {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+}
+
+.product-list h2 {
+    margin-top: 0;
+}
+
+</style>
+</body>
+</html>
