@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { Redirect, redirect } from 'react-router-dom';
 export default function Items() {
     // const history = useHistory();
-    const [selectedCategory, setSelectedCategory] = useState('All Categories');
+    const [selectedCategory, setSelectedCategory] = useState('all');
     const handleCategoryChange = (e) => {
         setSelectedCategory(e.target.value);
     };
