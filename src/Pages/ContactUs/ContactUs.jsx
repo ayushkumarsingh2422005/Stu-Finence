@@ -7,7 +7,7 @@ import NevBar from '../../Components/NevBar/NevBar'
 export default function ContactUs() {
   return (
     <>
-    <NevBar />
+    
     <div className='contactus_container_super'>
       <div id="contactus_container">
         <div id="contactus_child_1">
@@ -34,12 +34,13 @@ export default function ContactUs() {
               {/* <legend><i className="fa-solid fa-phone"></i> Desc</legend> */}
               <textarea name="desc" cols="30" rows="10"></textarea>
             </fieldset>
-            <button type="submit">Submit</button>
+            <button type="submit">Submit</button> &nbsp;&nbsp;
             <button type="reset">Clear</button>
           </form>
         </div>
       </div>
     </div>
+    <NevBar />
     </>
   )
 }

@@ -6,6 +6,7 @@
     justify-content: space-around;
     padding: 5px;
     background-color: #e0e0e0;
+    z-index: 10000;
     /* box-shadow: 8px 8px 15px #b0b0b0, -8px -8px 15px #ffffff, 0 0 2px gray; */
 }
 
@@ -24,13 +25,16 @@
     transform: translateY(-25px) scale(1.5);
     border: solid 4px white;
     background-color: #e0e0e0;
+    color: red;
 }
 
-.nevbar>div>i {
+.nevbar>div>a>i {
     font-size: 150%;
     color: black;
 }
-
+.nevbar>div>a>i:hover{
+    color: red;
+}
 @media only screen and (max-width: 600px) {
 
     /* For tablets: */

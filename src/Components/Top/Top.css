@@ -28,7 +28,7 @@
 .top > div:nth-child(2){
     width: 100%;
     background-color: rgb(255, 255, 255);
-    text-align: right;
+    text-align: center;
     padding: 10px;
 }
 .top > div:nth-child(2) > input{
