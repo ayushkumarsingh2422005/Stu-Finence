@@ -94,13 +94,13 @@ select, input[type="range"] {
     margin-bottom: 8px;
 }
 
-button {
+/* button {
     background-color: #4caf50;
     color: #fff;
     padding: 10px;
     border: none;
     cursor: pointer;
-}
+} */
 
 .product-list {
     width: 70%;

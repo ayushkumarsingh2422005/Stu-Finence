@@ -6,8 +6,8 @@ import Top from '../../Components/Top/Top';
 import Footer from '../../Components/Footer/Footer';
 import "./Home.css";
 import ad1 from '../../Images/Ads/ad1.webp';
-import ad2 from '../../Images/Ads/ad2.webp';
-import ad3 from '../../Images/Ads/ad3.webp';
+import ad2 from '../../Images/Ads/ad2.jpg';
+import ad3 from '../../Images/Ads/ad3.jpg';
 import data from '../../DataSets/item.json';
 import catagory from '../../DataSets/Catagory.json';
 
