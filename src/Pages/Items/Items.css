@@ -111,3 +111,6 @@ button {
 .product-list h2 {
     margin-top: 0;
 }
+select{
+    background-color: transparent;
+}
