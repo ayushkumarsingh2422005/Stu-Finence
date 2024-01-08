@@ -6,7 +6,7 @@ export default function Top() {
     <div className='top'>
       <div id='logo'>NexusMart</div>
       <div id='search'>
-        <input type="search" placeholder='search your prod' />
+        <input type="search" placeholder='search your prodyct' />
         <button type="submit" onClick={() => {
 
         }}><i className="fa-solid fa-magnifying-glass"></i></button>
