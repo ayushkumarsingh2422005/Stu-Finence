@@ -1,0 +1,67 @@
+*{
+    user-select: none;
+}
+span{
+    display: block;
+    margin: 25px auto 0 auto;
+    width: 90%;
+    /* background-color: red; */
+}
+.discount {
+    margin: 5px auto 0 auto;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgb(194, 194, 194);
+}
+.discount::-webkit-scrollbar{
+    height: 10px;
+    background-color: rgb(240, 234, 234);
+    border-radius: 100px;
+    margin-top: 0;
+}
+.discount::-webkit-scrollbar-thumb{
+    background-color: rgb(155, 155, 155);
+    border-radius: 100px;
+    width: 50px;
+}
+
+.ads {
+    height: fit-content;
+    background-color: transparent;
+    margin: 10px auto 0 auto;
+    width: 90%;
+    background-color: gray;
+    background-color: red;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.ads::after {
+    content: "Ads";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: rotate(-45deg);
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    transform-origin: 50% 75px;
+
+}
+
+.carousel-inner img {
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    /* background-color: red; */
+}

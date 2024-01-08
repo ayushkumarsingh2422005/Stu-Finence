@@ -1,0 +1,45 @@
+{
+    "Cloths":[
+        {
+            "name": "Tbasbfh",
+            "size": "Tbasbfh",
+            "prize": "Tbasbfh",
+            "color": "color"
+        },
+        {
+            "name": "Tbasbfh",
+            "size": "Tbasbfh",
+            "prize": "Tbasbfh",
+            "color": "color"
+        },
+        {
+            "name": "Tbasbfh",
+            "size": "Tbasbfh",
+            "prize": "Tbasbfh",
+            "color": "color"
+        },
+        {
+            "name": "Tbasbfh",
+            "size": "Tbasbfh",
+            "prize": "Tbasbfh",
+            "color": "color"
+        }
+    ], 
+    "Cosmatics":[
+        {
+            "name" : "lipistic",
+            "for" : "fei",
+            "prize" : "fjk"
+        }, 
+        {
+            "name" : "lipistic",
+            "for" : "fei",
+            "prize" : "fjk"
+        }, 
+        {
+            "name" : "lipistic",
+            "for" : "fei",
+            "prize" : "fjk"
+        }
+    ]
+}
