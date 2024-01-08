@@ -14,7 +14,7 @@ import catagory from '../../DataSets/Catagory.json';
 export default function Home() {
   return (
     <>
-      <Top />
+      <Top /><br />
       <span>Top Sales</span>
       <motion.div className='discount'
         initial={{ opacity: 0, x: -100 }}
@@ -30,8 +30,8 @@ export default function Home() {
           })
           : "searching"}
 
-
       </motion.div>
+<br /><br />
       <motion.div
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
@@ -55,7 +55,8 @@ export default function Home() {
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </motion.div> <br />
+      </motion.div> <br /><br />
+      <span>Top Productes</span>
       <motion.div className='catagory'
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
