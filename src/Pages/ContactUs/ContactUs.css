@@ -69,7 +69,7 @@ display: none;
     color: red;
 }
 #contactus_child_2 > form > fieldset > input:valid{
-    border-color: green;
+    border-color: red;
     color: white;
 }
 #contactus_child_2 > form > fieldset > textarea{

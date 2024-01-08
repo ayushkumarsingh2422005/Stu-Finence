@@ -50,7 +50,7 @@
 }
 
 .footer-links a {
-    color: #cbcbcb;
+    color: #d3d3d3;
     text-decoration: none;
     margin-right: 15px;
     transition: color 0.3s ease;
@@ -60,7 +60,13 @@
 .footer-links a:hover {
     color: #e9e7e7;
 }
-
+a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+}
+a:hover{
+    color: white;
+}
 @media only screen and (max-width: 768px) {
     .footer-section {
         flex-basis: 100%;
