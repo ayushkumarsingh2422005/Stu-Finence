@@ -38,6 +38,8 @@
     background: transparent;
     border-style: solid none solid solid;
     border-color: black;
+    width: 50%;
+    /* background-color: red; */
 }
 .top > div:nth-child(2) > input:hover{
     border-style: solid none solid solid;
@@ -61,4 +63,12 @@
     background-color: gray;
     border-radius: 50%;
     /* transform: translateY(5px); */
+}
+#logo{
+    font-size: larger;
+    width: fit-content;
+}
+span{
+    color: white;
+    font-size: x-large;
 }

@@ -7,6 +7,10 @@ import { motion } from "framer-motion";
 import { Redirect, redirect } from 'react-router-dom';
 export default function Items() {
     // const history = useHistory();
+    const [selectedCategory, setSelectedCategory] = useState('All Categories');
+    const handleCategoryChange = (e) => {
+        setSelectedCategory(e.target.value);
+    };
     return (
         <div>
             <Top />
@@ -16,29 +20,29 @@ export default function Items() {
                         <h3>Filter Options</h3>
                         <form>
                             <div class="form-group">
-                                <label for="category">Category:</label>
-                                <select id="category">
-                                    <option>All Categories</option>
-                                    <option>Electronics</option>
-                                    <option>Clothing</option>
-                                    <option>Books</option>
+                                <label for="category">Category: {selectedCategory}</label>
+                                <select id="category" onChange={handleCategoryChange}>
+                                    <option value="all">All Categories</option>
+                                    <option value="Electronics">Electronics</option>
+                                    <option value="Clothing">Clothing</option>
+                                    <option value="all">Books</option>
                                     {/* <!-- Add more categories as needed --> */}
                                 </select>
                             </div>
 
                             <div class="form-group">
                                 <label for="priceRange">Price Range:</label>
-                                <input type="range" id="priceRange" min="0" max="1000"/>
-                                    <span id="priceOutput">0</span>
+                                <input type="range" id="priceRange" min="0" max="1000" />
+                                <span id="priceOutput">0</span>
                             </div>
 
                             <div class="form-group">
                                 <label>Brand:</label>
                                 <div class="brand-checkbox">
-                                    <label for="brand1"><input type="checkbox" id="brand1"/> Brand 1</label>
+                                    <label for="brand1"><input type="checkbox" id="brand1" /> Brand 1</label>
                                 </div>
                                 <div class="brand-checkbox">
-                                    <label for="brand2"><input type="checkbox" id="brand2"/> Brand 2</label>
+                                    <label for="brand2"><input type="checkbox" id="brand2" /> Brand 2</label>
                                 </div>
                                 {/* <!-- Add more brand checkboxes as needed --> */}
                             </div>
@@ -70,9 +74,9 @@ export default function Items() {
                         })
                         : "searching"}
                 </div>
-            </div>
+            </div >
 
             <NevBar />
-        </div>
+        </div >
     )
 }

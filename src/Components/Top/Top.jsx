@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 export default function Top() {
   return (
     <div className='top'>
-      <div id='logo'>Website</div>
+      <div id='logo'>NexusMart</div>
       <div id='search'>
         <input type="search" placeholder='search your prod' />
         <button type="submit" onClick={() => {
