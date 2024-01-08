@@ -1,4 +1,4 @@
-# App has been deployed to versal at [link](https://smart-cart-psi.vercel.app/)
+# [App has been deployed to versal. Click to see](https://smart-cart-psi.vercel.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
