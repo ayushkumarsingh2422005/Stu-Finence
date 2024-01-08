@@ -1,14 +1,15 @@
 import React from 'react'
 import './NevBar.css'
+import { Link } from 'react-router-dom';
 
 export default function NevBar() {
   return (
     <div className='nevbar'>
-      <div><i className="fa-solid fa-list"></i></div>
-      <div><i className="fa-solid fa-list"></i></div>
-      <div><i className="fa-solid fa-house"></i></div>
-      <div><i className="fa-solid fa-list"></i></div>
-      <div><i className="fa-solid fa-cart-shopping"></i></div>
+      <div><Link to='/auth'><i className="fa-solid fa-right-to-bracket"></i></Link></div>
+      <div><Link><i className="fa-solid fa-list"></i></Link></div>
+      <div><Link><i className="fa-solid fa-house"></i></Link></div>
+      <div><Link><i className="fa-solid fa-list"></i></Link></div>
+      <div><Link><i className="fa-solid fa-cart-shopping"></i></Link></div>
     </div>
   )
 }

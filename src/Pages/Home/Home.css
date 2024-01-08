@@ -33,6 +33,7 @@ span{
     background-color: rgb(240, 234, 234);
     border-radius: 100px;
     margin-top: 0;
+    display: none;
 }
 .discount::-webkit-scrollbar-thumb{
     background-color: rgb(155, 155, 155);
