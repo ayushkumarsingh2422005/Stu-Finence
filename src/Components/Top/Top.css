@@ -1,4 +1,4 @@
-.top{
+.top {
     width: 100vw;
     height: 50px;
     background-color: rgb(255, 255, 255);
@@ -6,7 +6,8 @@
     display: flex;
     align-items: center;
 }
-.top::after{
+
+.top::after {
     content: "";
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -17,23 +18,27 @@
     box-shadow: 2px 0 2px gray;
     z-index: -1;
 }
-.top > div{
+
+.top>div {
     transform: translateY(5px);
 }
-.top > div:first-child{
+
+.top>div:first-child {
     width: 100px;
     background-color: rgb(255, 255, 255);
     padding: 10px;
 }
-.top > div:nth-child(2){
+
+.top>div:nth-child(2) {
     width: 100%;
     background-color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
 }
-.top > div:nth-child(2) > input{
+
+.top>div:nth-child(2)>input {
     padding: 5px 15px;
-    border-style: none ;
+    border-style: none;
     border-radius: 500px 0 0 500px;
     background: transparent;
     border-style: solid none solid solid;
@@ -41,11 +46,13 @@
     width: 50%;
     /* background-color: red; */
 }
-.top > div:nth-child(2) > input:hover{
+
+.top>div:nth-child(2)>input:hover {
     border-style: solid none solid solid;
 }
-.top > div:nth-child(2) > button{
-    border-style: none ;
+
+.top>div:nth-child(2)>button {
+    border-style: none;
     border-radius: 0 500px 500px 0;
     background: transparent;
     border-style: solid solid solid none;
@@ -54,21 +61,29 @@
     background-color: rgb(240, 234, 234);
 }
 
-.top > div:last-child{
+.top>div:last-child {
     padding: 10px;
 }
-.top > div:last-child > div{
+
+.top>div:last-child>div {
     width: 40px;
     height: 40px;
     background-color: gray;
     border-radius: 50%;
     /* transform: translateY(5px); */
 }
-#logo{
+
+#logo {
     font-size: larger;
     width: fit-content;
 }
-span{
+
+span {
     color: white;
     font-size: x-large;
+}
+
+#search>button {
+    background-color: rgb(203, 203, 203) !important;
+    color: black;
 }
